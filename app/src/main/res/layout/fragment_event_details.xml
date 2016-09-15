@@ -1,0 +1,215 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventDetailsFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <!--<TableRow-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="0dp" >-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/details_frag_textView_id"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Event ID"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/details_frag_textView_id_value"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Event ID"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="0dp" >-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/details_frag_textView_type"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Type"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/details_frag_textView_type_value"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Event Type"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+        <!--</TableRow>-->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp" >
+
+            <TextView
+                android:id="@+id/details_frag_textView_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/details_frag_textView_class_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Class"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp" >
+
+            <TextView
+                android:id="@+id/details_frag_textView_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reporting Time"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/details_frag_textView_time_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Intensity"
+                android:id="@+id/details_frag_intensity_header" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/details_frag_text_level"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+
+            <SeekBar
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/seekBar_intensity"
+                android:minHeight="10dip"
+                android:maxHeight="10dip"
+                android:progress="0"
+                android:layout_column="0"
+                android:layout_weight="2"
+                android:layout_span="2" />
+
+        </TableRow>
+
+        <!--<TableRow-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="0dp" >-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                <!--android:text="Intensity"-->
+                <!--android:id="@+id/details_frag_text_level" />-->
+
+            <!--<Spinner-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/details_frag_spinner_level"-->
+                <!--android:spinnerMode="dropdown"-->
+                <!--android:entries="@array/level_array"/>-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="0dp" >-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/details_frag_textView_source"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Event Source"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/details_frag_textView_source_value"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Event Source"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+        <!--</TableRow>-->
+
+
+
+        <TableRow
+            android:id="@+id/tableRow_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" >
+
+            <com.google.android.gms.maps.MapView
+                android:layout_weight="2"
+                android:layout_span="2"
+                android:id="@+id/details_miniMapView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Intensity"
+                android:id="@+id/details_frag_button_change"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete Event"
+                android:id="@+id/details_frag_button_delete"
+                android:layout_gravity="center_horizontal" />
+
+        </TableRow>
+    </TableLayout>
+
+
+
+
+
+</FrameLayout>

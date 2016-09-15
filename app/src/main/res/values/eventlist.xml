@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="event_array">
+        <item>TrafficJam</item>
+        <item>Congestion</item>
+        <item>PublicParking</item>
+    </string-array>
+    <string-array name="level_array">
+        <item>"very low"</item>
+        <item>"low"</item>
+        <item>"medium"</item>
+        <item>"high"</item>
+        <item>"very high</item>
+    </string-array>
+
+</resources>
