@@ -38,6 +38,6 @@ In the last screenshot a simple dialog is shown allowing the users to change his
 
 
 ## Contributers
-The Event Reporting App has been developed as part of the EU project CityPulse. The consortium member University of Applied Sciences provided the main contributions for this application.
+The Event Reporting App has been developed as part of the EU project CityPulse. The consortium member University of Applied Sciences Osnabrück provided the main contributions for this application.
 
 
