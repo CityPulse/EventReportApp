@@ -12,17 +12,28 @@ For installation import the provided files into Android Studio as a new project.
 
 # Screenshots
 The following screenshots show different screens of the application. The first one depicts the main view with a map where the events are placed. Events commited by other users are changeable/deleteable and are marked with an additional user icon.
-![Event Map View](https://github.com/CityPulse/EventReportApp/blob/master/screenshots/screenshot1.png)
+
+<img src="https://github.com/CityPulse/EventReportApp/blob/master/screenshots/screenshot1.png" width="400">
+
 The second screenshot provides the dialog to report a new event. The user can select between three preconfigured event types, and select the intensity of the event (only for traffic jam and congestion).
-![Report Event](https://github.com/CityPulse/EventReportApp/blob/master/screenshots/screenshot2.png)
+
+<img src="https://github.com/CityPulse/EventReportApp/blob/master/screenshots/screenshot2.png" width="400">
+
 Within the event details it is possibe to see the report time of the event and the intensity. For events commited by users it is possible to change the intensity or to delete the event. For events created by CityPulse Event Detection component the event is read only.
-![Event Details](https://github.com/CityPulse/EventReportApp/blob/master/screenshots/screenshot3.png)
+
+<img src="https://github.com/CityPulse/EventReportApp/blob/master/screenshots/screenshot3.png" width="400">
+
 An additional screenshot providing a view of the menu structure of the application.
-![Menu View](https://github.com/CityPulse/EventReportApp/blob/master/screenshots/screenshot4.png)
+
+<img src="https://github.com/CityPulse/EventReportApp/blob/master/screenshots/screenshot4.png" width="400">
+
 Within this dialog it is possible to change connection details and to see some statistics related to the received events.
-![Configuration](https://github.com/CityPulse/EventReportApp/blob/master/screenshots/screenshot5.png)
+
+<img src="https://github.com/CityPulse/EventReportApp/blob/master/screenshots/screenshot5.png" width="400">
+
 In the last screenshot a simple dialog is shown allowing the users to change his name.
-![User Configuration](https://github.com/CityPulse/EventReportApp/blob/master/screenshots/screenshot6.png)
+
+<img src="https://github.com/CityPulse/EventReportApp/blob/master/screenshots/screenshot6.png" width="400">
 
 
 
