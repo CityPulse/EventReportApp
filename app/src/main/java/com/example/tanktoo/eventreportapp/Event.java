@@ -38,7 +38,9 @@ enum EventSourceType {
 enum EventType {
     PUBLIC_PARKING("PublicParking"),
     TRAFFIC_JAM("TrafficJam"),
-    CONGESTION("Congestion");
+    CONGESTION("Congestion"),
+    POLLUTION("AarhusPollution"),
+    NOISE("AarhusNoiseLevel");
     private String type;
 
     EventType(String type) {

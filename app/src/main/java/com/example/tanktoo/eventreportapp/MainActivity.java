@@ -265,6 +265,10 @@ public class MainActivity extends AppCompatActivity
                     markerOptions.icon(BitmapDescriptorFactory.fromResource(R.mipmap.event_parking));
                 else if(event.getEventClass().equals("Congestion"))
                     markerOptions.icon(BitmapDescriptorFactory.fromResource(R.mipmap.event_congestion));
+                else if(event.getEventClass().equals("AarhusPollution"))
+                    markerOptions.icon(BitmapDescriptorFactory.fromResource(R.mipmap.event_pollution));
+                else if(event.getEventClass().equals("AarhusNoiseLevel"))
+                    markerOptions.icon(BitmapDescriptorFactory.fromResource(R.mipmap.event_noise));
             }
             Marker marker = this.map.addMarker(markerOptions);
             this.markerEventMap.put(marker, event);
