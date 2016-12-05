@@ -10,7 +10,7 @@ The CityPulse Event Report Application for Android enables the user to see ongoi
 ## Installation
 For installation import the provided files into Android Studio as a new project. You have to add your google maps API key.
 
-# Screenshots
+# Screenshots and Video
 The following screenshots show different screens of the application. The first one depicts the main view with a map where the events are placed. Events commited by other users are changeable/deleteable and are marked with an additional user icon.
 
 <img src="https://github.com/CityPulse/EventReportApp/blob/master/screenshots/screenshot1.png" width="400">
@@ -35,7 +35,7 @@ In the last screenshot a simple dialog is shown allowing the users to change his
 
 <img src="https://github.com/CityPulse/EventReportApp/blob/master/screenshots/screenshot6.png" width="400">
 
-
+A short demonstration video is available on Youtube: https://www.youtube.com/watch?v=Xw1QhOrtYzA
 
 ## Contributers
 The Event Reporting App has been developed as part of the EU project CityPulse. The consortium member University of Applied Sciences Osnabrück provided the main contributions for this application.
